@@ -1,0 +1,6 @@
+import os
+shutdown=input("Do you want to shutdown the sysytem y/n : ")
+if shutdown=='y':
+   os.system("shutdown /s /t 0")
+else
+  print("exit")
